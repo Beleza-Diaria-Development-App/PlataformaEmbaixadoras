@@ -1,0 +1,285 @@
+.section_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+body {
+    background: var(--white-2, #F4F4F4);
+    padding: 48px;
+}
+
+
+/* Tipografia */
+
+.txt_p {
+    color: var(--black-1, #121212);
+    text-align: center;
+    font-family: Gopher;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tt_descri {
+    color: var(--black-150, rgba(18, 18, 18, 0.50));
+    text-align: center;
+    font-family: Gopher;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 8px;
+}
+
+.tt- {
+    width: 100%;
+    color: var(--black-1, #121212);
+    text-align: center;
+    font-family: Arsenica Trial;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.traço {
+    margin: 0;
+    color: var(--white-2, #F4F4F4);
+    font-family: Arsenica Trial;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: var(--primary-color-2, #A07BFC);
+    padding: 1px 12px 1px 12px;
+}
+
+.tt_descri_tt {
+    color: var(--black-150, rgba(18, 18, 18, 0.50));
+    text-align: center;
+    font-family: Gopher;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    width: 100%px;
+}
+
+.tt_esq {
+    color: var(--black-180, rgba(18, 18, 18, 0.80));
+    font-family: Gopher;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}.tt_rec {
+    color: var(--black-150, rgba(18, 18, 18, 0.50));
+    font-family: Gopher;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+/* Elementos */
+
+.ArrowRight {
+    padding: 5px;
+    width: 61px;
+    height: 38px;
+    flex-shrink: 0;
+
+    border-radius: 100px;
+    background: var(--primary-color-2, #A07BFC);
+    border-radius: 100px;
+}
+
+.Line {
+    position: absolute;
+    padding-right: 78px;
+    padding-bottom: 520px;
+    width: 180px;
+}
+
+.input_email {
+    width: 470px;
+    display: flex;
+    padding: 24px;
+    align-items: center; 
+
+    border-radius: 20px;
+    border: 3px solid var(--black-110, rgba(18, 18, 18, 0.10));
+    background: var(--white-2, #F4F4F4);
+
+    color: var(--black-150, rgba(18, 18, 18, 0.50));
+    font-family: Gopher;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.input_password {
+    width: 470px;
+    display: flex;
+    padding: 24px;
+    align-items: center; 
+
+    border-radius: 20px;
+    border: 3px solid var(--black-110, rgba(18, 18, 18, 0.10));
+    background: var(--white-2, #F4F4F4);
+
+    color: var(--black-150, rgba(18, 18, 18, 0.50));
+    font-family: Gopher;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button_acess {
+    color: var(--white-2, #F4F4F4);
+    font-family: Gopher;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    display: flex;
+    width: 470px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    background: var(--primary-color-2, #A07BFC);
+}
+
+/* Sessões */
+
+.register_cta {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 12px 8px 24px;
+    gap: 20px;
+
+    border-radius: 100px;
+    background: var(--white-1, #FFF);
+}
+
+.welcome-mensage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.box-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.acesso {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+    width: 100%;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 42px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* Responsividade */
+
+@media (max-width: 640px) {
+    .button_acess {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .input_password {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .input_email {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 785px) {
+    .tt_descri {
+        display: none;
+    }
+
+    .Line {
+        padding-bottom: 424px;
+    }
+}
+
+@media (max-width: 580px) {
+    body {
+        padding: 28px;
+    }
+}
+
+@media (max-width: 544px) {
+    body {
+        padding: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 503px) {
+
+    .Line {
+        padding-bottom: 446px;
+    }
+}
+
+@media (max-width: 510px) {
+    .Line {
+        display: none;
+    }
+}
