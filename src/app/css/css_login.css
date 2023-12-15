@@ -105,9 +105,11 @@ body {
     padding-right: 78px;
     padding-bottom: 520px;
     width: 180px;
+    z-index: 1;
 }
 
 .input_email {
+    z-index: 2;
     width: 470px;
     display: flex;
     padding: 24px;
@@ -126,6 +128,7 @@ body {
 }
 
 .input_password {
+    z-index: 2;
     width: 470px;
     display: flex;
     padding: 24px;
