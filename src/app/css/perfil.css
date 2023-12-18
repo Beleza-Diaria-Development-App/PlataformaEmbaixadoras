@@ -1,0 +1,257 @@
+.body {
+    background: var(--white-2, #F4F4F4);
+    padding: 48px;
+}
+
+.app {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.page {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-left: 168px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.section-user-dados {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 1115px;
+    height: 357px;
+    flex-shrink: 0;
+
+    border-radius: 0px 0px 28px 28px;
+    background: var(--white-1, #FFF);
+}
+
+.nivel-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.tt-nivel {
+    margin: 0;
+    color: var(--black-1, #121212);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.info-localização {
+    margin: 0;
+    color: var(--black-150, rgba(18, 18, 18, 0.50));
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.nome-dados {
+    margin: 0;
+    color: var(--black-1, #121212);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.campos-info-descri {
+    padding-top: 148px;
+    padding-left: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.User-Avatar {
+    position: absolute;
+    padding-top: 104px;
+    padding-left: 48px;
+}
+
+.section-right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+.edit-name {
+    margin: 0;
+    color: var(--white-2, #F4F4F4);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.button-edit-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 18px 0px;
+    width: 192px;
+
+    border-radius: 20px;
+    background: var(--primary-color-2, #A07BFC);
+}
+
+.section-right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-right: 48px;
+    height: 268px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.section-dados {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 1115px;
+    height: 325px;
+    flex-shrink: 0;
+    gap: 48px;
+
+    border-radius: 28px;
+    border: 4px solid var(--black-110, rgba(18, 18, 18, 0.10));
+    background: var(--white-2, #F4F4F4);
+}
+
+.tt-dados {
+    padding-left: 48px;
+
+    color: var(--black-180, rgba(18, 18, 18, 0.80));
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.campos {
+    padding-left: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 24px;
+}
+
+.campo {
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    border-radius: 10px;
+    border: 3px solid var(--black-110, rgba(18, 18, 18, 0.10));
+    gap: 12px;
+}.tt-campo {
+    margin: 0;
+    color: var(--black-1, #121212);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button-dados {
+    margin-left: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 18px 12px;
+    width: 192px;
+
+    border-radius: 20px;
+    background: var(--black-1, #121212);
+}.alterar-dados {
+    margin: 0;
+    color: var(--white-2, #F4F4F4);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.button-close-config-user {
+    padding: 4px;
+}
+
+.tt-save {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.save-exit-config-user {
+    color: var(--white-2, #F4F4F4);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+    margin: 0;
+    display: flex;
+    width: 128px;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: flex-end;
+
+    border-radius: 20px;
+    background: var(--primary-color-2, #A07BFC);
+}
+
+.tt-config-user {
+    margin: 0;
+    color: var(--black-1, #121212);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.banners {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 12px;
+}
