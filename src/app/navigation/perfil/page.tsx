@@ -23,8 +23,9 @@ import ProfilePage from '../../components/profile'
 
 export default function Home() {
     return (
+      <>
+      <Navbar />
       <section className='app'>
-        <Navbar />
         <section className='page'>
         <section className='perfil'>
             <Image className='User-Avatar' src={UserPictures} alt={"UserPictures"}/>
@@ -76,6 +77,7 @@ export default function Home() {
         </section>
         
       </section>
+      </>
     )
   }
 
