@@ -1,4 +1,4 @@
-import Login from "./navigation/login/page";
+import Login from "./pages/login/page";
 
 
 export default function Home() {
